@@ -1,0 +1,23 @@
+
+Test Accuracy: 0.9888
+
+====================Multi-Class====================
+Precision: 0.9890
+Recall:    0.9888
+F1-score:  0.9888
+
+====================XSS====================
+Precision: 1.0000
+Recall:    1.0000
+F1-score:  1.0000
+Accuracy:  1.0000
+AUC:       1.0000
+MCC:       1.0000
+
+====================SQL====================
+Precision: 0.9971
+Recall:    0.9812
+F1-score:  0.9891
+Accuracy:  0.9888
+AUC:       0.9891
+MCC:       0.9778

@@ -1,0 +1,10 @@
+paths:
+  model_checkpoint: "/root/autodl-fs/Model/XLnet.pth"
+
+parameters:
+  device: "cuda:0"
+  max_iterations: 100
+  accept_rate: 0.95
+  patience: 20
+
+n_workers: 2

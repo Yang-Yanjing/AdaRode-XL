@@ -1,0 +1,12 @@
+Epoch 1 / 10
+Epoch 2 / 10
+Epoch 3 / 10
+Epoch 4 / 10
+Epoch 5 / 10
+Epoch 6 / 10
+Epoch 7 / 10
+Epoch 8 / 10
+Epoch 9 / 10
+Epoch 10 / 10
+Total time taken: 2973.21 seconds
+Total memory consumed: 0.84 GB

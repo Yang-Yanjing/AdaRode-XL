@@ -1,0 +1,27 @@
+
+Test Accuracy: 0.9014
+
+====================Multi-Class====================
+Precision: 0.9141
+Recall:    0.7187
+F1-score:  0.7644
+====================Interception Evaluation====================
+Interception Precision: 0.9085
+Interception Recall:    0.9656
+Interception F1-score:  0.9361
+
+====================XSS====================
+Precision: 0.9249
+Recall:    0.3122
+F1-score:  0.4668
+Accuracy:  0.9724
+AUC:       0.6556
+MCC:       0.5286
+
+====================SQL====================
+Precision: 0.8640
+Recall:    0.9652
+F1-score:  0.9118
+Accuracy:  0.9036
+AUC:       0.9015
+MCC:       0.8122

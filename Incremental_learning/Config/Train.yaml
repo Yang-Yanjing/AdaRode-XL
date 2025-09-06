@@ -1,0 +1,18 @@
+Dataset: "AdaPIK"
+Model: 
+
+    Model_name: "XLnet"
+    PretrainedName: "/root/autodl-fs/xlnet-base-cased" 
+    
+    NumLabels: 3
+Train: 
+    Epoch: 50
+    Max_length: 128
+    lr: 0.0000001
+    BatchSize: 32
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 # 🛡️ AdaRode: Adversarially Robust Detector for Web Injection Attacks
-
+![Alt text](image.png)
 **AdaRode** is an adversarially augmented training framework designed to improve the robustness of Web Application Firewalls (WAFs) against evolving injection attacks such as SQL injection (SQLi) and cross-site scripting (XSS). While conventional WAFs often fail to intercept Malicious Injection Variants (MIVs) that differ from historical attack patterns, AdaRode addresses this challenge from a defender's perspective.
 
 ## 🔍 Key Features
@@ -36,17 +36,20 @@
 ## ✅ Requirements
 
 - Python 3.10 or higher  
-- Required packages listed in `requirements.txt`
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
+- Required packages:
+  - `numpy`
+  - `scipy`
+  - `scikit-learn`
+  - `transformers`
+  - `torch`
+  - `tqdm`
+  - `pyyaml`
 
 ---
 
-## ⚙️ Configuration
+## ⚙️ Adversarial Attack Configuration
+
+**In the ./AdaRode file path**
 
 Set parameters and paths in the config file `Config/adv_config_AdaRode.yaml`. Example:
 
